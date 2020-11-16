@@ -37,8 +37,11 @@ Quantifiers in regular expression determines how many instances of a group, char
 Here are some of the quantifiers used in our example.
     
 `char+`    matches a string that has cha followed by one or more r
+
 `char{2,6}`   matches a string that has cha followed by 2 up to 5 r
+
 `c(har)*`   matches a string that has c followed by zero or more copies of the sequence har
+
 `c(har){2,6}`  matches a string that has c followed by 2 up to 6 copies of the sequence har
 
 ### OR Operator
@@ -49,6 +52,7 @@ it tells the regex engine to match either everything to the left of "|",
 or everything to the right of "|".Here are some OR-operators used in our example
 
 `c(h|r)`   matches a string that has c followed by h or r and  capturing h or r
+
 `c[hr]`   matches a string that has c followed by h or r but without capturing h or r
 
 ### Character Classes
