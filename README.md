@@ -60,8 +60,8 @@ or everything to the right of "|".Here are some OR-operators used in our example
 A character class is a special pattern or notation that matches any character from a certain given string. Here are some used character class in our example.
 
 
-\d         matches a single character that is a digit
-.          matches any character 
+`\d`         matches a single character that is a digit
+`.`          matches any character 
 
 ### Flags
 
