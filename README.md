@@ -61,6 +61,7 @@ A character class is a special pattern or notation that matches any character fr
 
 
 `\d`         matches a single character that is a digit
+
 `.`          matches any character 
 
 ### Flags
